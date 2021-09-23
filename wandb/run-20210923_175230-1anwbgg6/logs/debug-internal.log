@@ -1,0 +1,151 @@
+2021-09-23 17:52:31,723 INFO    MainThread:462896 [internal.py:wandb_internal():89] W&B internal server running at pid: 462896, started at: 2021-09-23 17:52:31.723100
+2021-09-23 17:52:31,724 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: check_version
+2021-09-23 17:52:31,724 INFO    WriterThread:462896 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/run-1anwbgg6.wandb
+2021-09-23 17:52:31,726 DEBUG   SenderThread:462896 [sender.py:send():182] send: header
+2021-09-23 17:52:31,726 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: check_version
+2021-09-23 17:52:32,069 DEBUG   SenderThread:462896 [sender.py:send():182] send: run
+2021-09-23 17:52:32,073 DEBUG   SenderThread:462896 [git.py:repo():33] git repository is invalid
+2021-09-23 17:52:32,697 INFO    SenderThread:462896 [dir_watcher.py:__init__():169] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files
+2021-09-23 17:52:32,698 INFO    SenderThread:462896 [sender.py:_start_run_threads():743] run started: 1anwbgg6 with start time 1632399750
+2021-09-23 17:52:32,698 DEBUG   SenderThread:462896 [sender.py:send():182] send: summary
+2021-09-23 17:52:32,698 INFO    SenderThread:462896 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-23 17:52:32,698 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: run_start
+2021-09-23 17:52:32,708 DEBUG   HandlerThread:462896 [meta.py:__init__():40] meta init
+2021-09-23 17:52:32,708 DEBUG   HandlerThread:462896 [meta.py:__init__():54] meta init done
+2021-09-23 17:52:32,708 DEBUG   HandlerThread:462896 [meta.py:probe():211] probe
+2021-09-23 17:52:32,715 DEBUG   HandlerThread:462896 [git.py:repo():33] git repository is invalid
+2021-09-23 17:52:32,715 DEBUG   HandlerThread:462896 [meta.py:_save_code():90] save code
+2021-09-23 17:52:32,715 WARNING HandlerThread:462896 [meta.py:_save_code():92] unable to save code -- program entry not found
+2021-09-23 17:52:32,715 DEBUG   HandlerThread:462896 [meta.py:_save_pip():58] save pip
+2021-09-23 17:52:32,716 DEBUG   HandlerThread:462896 [meta.py:_save_pip():72] save pip done
+2021-09-23 17:52:32,716 DEBUG   HandlerThread:462896 [meta.py:_save_conda():79] save conda
+2021-09-23 17:52:33,700 INFO    Thread-8  :462896 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/conda-environment.yaml
+2021-09-23 17:52:33,701 INFO    Thread-8  :462896 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/wandb-summary.json
+2021-09-23 17:52:33,701 INFO    Thread-8  :462896 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/requirements.txt
+2021-09-23 17:52:38,704 INFO    Thread-8  :462896 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/output.log
+2021-09-23 17:52:40,270 DEBUG   HandlerThread:462896 [meta.py:_save_conda():87] save conda done
+2021-09-23 17:52:40,270 DEBUG   HandlerThread:462896 [meta.py:probe():249] probe done
+2021-09-23 17:52:40,319 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-23 17:52:40,319 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-23 17:52:40,319 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: stop_status
+2021-09-23 17:52:40,320 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: pause
+2021-09-23 17:52:40,324 INFO    HandlerThread:462896 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-23 17:52:40,704 INFO    Thread-8  :462896 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/conda-environment.yaml
+2021-09-23 17:52:40,705 INFO    Thread-8  :462896 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/output.log
+2021-09-23 17:52:40,705 INFO    Thread-8  :462896 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/wandb-metadata.json
+2021-09-23 17:52:40,766 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: log_artifact
+2021-09-23 17:52:44,347 INFO    Thread-12 :462896 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/2c/d830d275be53b35af88909e94db60d
+2021-09-23 17:52:47,094 DEBUG   SenderThread:462896 [sender.py:send():182] send: files
+2021-09-23 17:52:47,098 INFO    SenderThread:462896 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-23 17:52:47,099 DEBUG   SenderThread:462896 [sender.py:send():182] send: stats
+2021-09-23 17:52:48,300 INFO    Thread-13 :462896 [upload_job.py:push():137] Uploaded file /tmp/tmpidiznhzmwandb/2c6as8i6-wandb-metadata.json
+2021-09-23 17:52:52,473 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: resume
+2021-09-23 17:52:52,474 INFO    HandlerThread:462896 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-23 17:52:53,135 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-23 17:52:53,135 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: log_artifact
+2021-09-23 17:52:53,141 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: pause
+2021-09-23 17:52:53,141 INFO    HandlerThread:462896 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-23 17:52:54,691 DEBUG   SenderThread:462896 [sender.py:send():182] send: stats
+2021-09-23 17:52:55,767 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-23 17:52:55,767 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: stop_status
+2021-09-23 17:52:58,815 WARNING MainThread:462896 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-09-23 17:52:59,730 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-23 17:52:59,730 DEBUG   SenderThread:462896 [sender.py:send():182] send: telemetry
+2021-09-23 17:52:59,731 DEBUG   SenderThread:462896 [sender.py:send():182] send: exit
+2021-09-23 17:52:59,731 INFO    SenderThread:462896 [sender.py:send_exit():291] handling exit code: 0
+2021-09-23 17:52:59,731 INFO    SenderThread:462896 [sender.py:send_exit():293] handling runtime: 8
+2021-09-23 17:52:59,735 INFO    SenderThread:462896 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-23 17:52:59,736 INFO    SenderThread:462896 [sender.py:send_exit():303] send defer
+2021-09-23 17:52:59,736 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: poll_exit
+2021-09-23 17:52:59,736 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: defer
+2021-09-23 17:52:59,736 INFO    HandlerThread:462896 [handler.py:handle_request_defer():143] handle defer: 0
+2021-09-23 17:52:59,736 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: defer
+2021-09-23 17:52:59,737 INFO    SenderThread:462896 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-09-23 17:52:59,737 INFO    SenderThread:462896 [sender.py:transition_state():316] send defer: 1
+2021-09-23 17:52:59,737 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: defer
+2021-09-23 17:52:59,737 INFO    HandlerThread:462896 [handler.py:handle_request_defer():143] handle defer: 1
+2021-09-23 17:52:59,737 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: defer
+2021-09-23 17:52:59,737 INFO    SenderThread:462896 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-09-23 17:52:59,737 INFO    SenderThread:462896 [sender.py:transition_state():316] send defer: 2
+2021-09-23 17:52:59,737 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: defer
+2021-09-23 17:52:59,738 INFO    HandlerThread:462896 [handler.py:handle_request_defer():143] handle defer: 2
+2021-09-23 17:52:59,738 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: defer
+2021-09-23 17:52:59,738 INFO    SenderThread:462896 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-09-23 17:52:59,738 INFO    SenderThread:462896 [sender.py:transition_state():316] send defer: 3
+2021-09-23 17:52:59,738 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: defer
+2021-09-23 17:52:59,738 INFO    HandlerThread:462896 [handler.py:handle_request_defer():143] handle defer: 3
+2021-09-23 17:52:59,738 DEBUG   SenderThread:462896 [sender.py:send():182] send: summary
+2021-09-23 17:52:59,739 INFO    SenderThread:462896 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-23 17:52:59,739 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: defer
+2021-09-23 17:52:59,739 INFO    SenderThread:462896 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-09-23 17:52:59,739 INFO    SenderThread:462896 [sender.py:transition_state():316] send defer: 4
+2021-09-23 17:52:59,739 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: defer
+2021-09-23 17:52:59,739 INFO    HandlerThread:462896 [handler.py:handle_request_defer():143] handle defer: 4
+2021-09-23 17:52:59,739 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: defer
+2021-09-23 17:52:59,739 INFO    SenderThread:462896 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-09-23 17:52:59,840 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-23 17:53:00,375 INFO    SenderThread:462896 [sender.py:transition_state():316] send defer: 5
+2021-09-23 17:53:00,375 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: poll_exit
+2021-09-23 17:53:00,376 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: defer
+2021-09-23 17:53:00,376 INFO    HandlerThread:462896 [handler.py:handle_request_defer():143] handle defer: 5
+2021-09-23 17:53:00,376 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: defer
+2021-09-23 17:53:00,376 INFO    SenderThread:462896 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-09-23 17:53:00,376 INFO    SenderThread:462896 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-09-23 17:53:00,477 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-23 17:53:00,708 INFO    SenderThread:462896 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/config.yaml
+2021-09-23 17:53:00,708 INFO    SenderThread:462896 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/wandb-summary.json
+2021-09-23 17:53:00,709 INFO    SenderThread:462896 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/output.log
+2021-09-23 17:53:00,709 INFO    SenderThread:462896 [dir_watcher.py:finish():313] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files
+2021-09-23 17:53:00,709 INFO    SenderThread:462896 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/wandb-summary.json wandb-summary.json
+2021-09-23 17:53:00,709 INFO    SenderThread:462896 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/conda-environment.yaml conda-environment.yaml
+2021-09-23 17:53:00,715 INFO    SenderThread:462896 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/output.log output.log
+2021-09-23 17:53:00,715 INFO    SenderThread:462896 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/wandb-metadata.json wandb-metadata.json
+2021-09-23 17:53:00,721 INFO    SenderThread:462896 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/config.yaml config.yaml
+2021-09-23 17:53:00,722 INFO    SenderThread:462896 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/requirements.txt requirements.txt
+2021-09-23 17:53:00,733 INFO    SenderThread:462896 [sender.py:transition_state():316] send defer: 6
+2021-09-23 17:53:00,734 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: poll_exit
+2021-09-23 17:53:00,734 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: defer
+2021-09-23 17:53:00,735 INFO    HandlerThread:462896 [handler.py:handle_request_defer():143] handle defer: 6
+2021-09-23 17:53:00,741 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: defer
+2021-09-23 17:53:00,741 INFO    SenderThread:462896 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-09-23 17:53:00,741 INFO    SenderThread:462896 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-23 17:53:00,836 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-23 17:53:00,837 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: poll_exit
+2021-09-23 17:53:00,938 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-23 17:53:00,938 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: poll_exit
+2021-09-23 17:53:01,040 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-23 17:53:01,040 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: poll_exit
+2021-09-23 17:53:01,141 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-23 17:53:01,142 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: poll_exit
+2021-09-23 17:53:01,243 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-23 17:53:01,243 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: poll_exit
+2021-09-23 17:53:02,614 INFO    Thread-17 :462896 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/output.log
+2021-09-23 17:53:02,626 INFO    Thread-18 :462896 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/config.yaml
+2021-09-23 17:53:02,714 INFO    Thread-15 :462896 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/wandb-summary.json
+2021-09-23 17:53:02,715 INFO    Thread-19 :462896 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/requirements.txt
+2021-09-23 17:53:02,805 INFO    Thread-16 :462896 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/files/conda-environment.yaml
+2021-09-23 17:53:03,006 INFO    Thread-7  :462896 [sender.py:transition_state():316] send defer: 7
+2021-09-23 17:53:03,006 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: defer
+2021-09-23 17:53:03,007 INFO    HandlerThread:462896 [handler.py:handle_request_defer():143] handle defer: 7
+2021-09-23 17:53:03,007 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: defer
+2021-09-23 17:53:03,007 INFO    SenderThread:462896 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-09-23 17:53:03,483 INFO    SenderThread:462896 [sender.py:transition_state():316] send defer: 8
+2021-09-23 17:53:03,484 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: defer
+2021-09-23 17:53:03,484 INFO    HandlerThread:462896 [handler.py:handle_request_defer():143] handle defer: 8
+2021-09-23 17:53:03,484 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: defer
+2021-09-23 17:53:03,484 INFO    SenderThread:462896 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-09-23 17:53:03,484 INFO    SenderThread:462896 [sender.py:transition_state():316] send defer: 9
+2021-09-23 17:53:03,484 DEBUG   HandlerThread:462896 [handler.py:handle_request():126] handle_request: defer
+2021-09-23 17:53:03,485 INFO    HandlerThread:462896 [handler.py:handle_request_defer():143] handle defer: 9
+2021-09-23 17:53:03,485 DEBUG   SenderThread:462896 [sender.py:send():182] send: final
+2021-09-23 17:53:03,485 DEBUG   SenderThread:462896 [sender.py:send():182] send: footer
+2021-09-23 17:53:03,485 DEBUG   SenderThread:462896 [sender.py:send_request():196] send_request: defer
+2021-09-23 17:53:03,485 INFO    SenderThread:462896 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-09-23 17:53:04,821 WARNING MainThread:462896 [internal.py:is_dead():365] Internal process exiting, parent pid 448616 disappeared
+2021-09-23 17:53:04,821 ERROR   MainThread:462896 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-09-23 17:53:05,485 INFO    WriterThread:462896 [datastore.py:close():281] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fresh-and-Stale-Images-of-Fruits-and-Vegetables/wandb/run-20210923_175230-1anwbgg6/run-1anwbgg6.wandb
+2021-09-23 17:53:05,485 INFO    SenderThread:462896 [sender.py:finish():979] shutting down sender
+2021-09-23 17:53:05,485 INFO    SenderThread:462896 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-23 17:53:05,486 INFO    SenderThread:462896 [file_pusher.py:join():182] waiting for file pusher
+2021-09-23 17:53:05,486 INFO    HandlerThread:462896 [handler.py:finish():683] shutting down handler
+2021-09-23 17:53:05,487 INFO    MainThread:462896 [internal.py:handle_exit():76] Internal process exited
